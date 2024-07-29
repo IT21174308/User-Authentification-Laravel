@@ -1,3 +1,4 @@
+
 @extends('layouts.auth-master')
 
 @section('content')
@@ -42,6 +43,6 @@
 
         <button class="w-100 btn btn-lg btn-primary" type="submit">Register</button>
 
-        @include('auth.partials.copy')
     </form>
+
 @endsection
